@@ -1,0 +1,10 @@
+[package]
+name = "horizon-client-render"
+version = "0.0.0"
+edition = "2024"
+[lib]
+path = "src/lib.rs"
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+log = { path = "/home/claude/hmodcheck/logstub" }

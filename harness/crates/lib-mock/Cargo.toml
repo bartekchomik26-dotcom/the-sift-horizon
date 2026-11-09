@@ -1,0 +1,11 @@
+[package]
+name = "horizon-client-lib"
+# A mock of the mob code The Sift's mobs touch (Mob, its goals, the tamed animals' goals), to
+# compile and run ai.rs and tame.rs as they ship: cargo test --release -p horizon-client-lib
+version = "0.0.0"
+edition = "2024"
+[lib]
+name = "horizon_client_lib"
+path = "src/lib.rs"
+[dependencies]
+horizon-core = { path = "../../core-mock" }

@@ -1,0 +1,12 @@
+[package]
+name = "horizon-world"
+# A mock of what The Sift's terrain features touch in Horizon's worldgen crate (ProtoChunks, the
+# block registry, biomes, fluid ticks), to run features.rs, terrain.rs and h_decorate.rs as they
+# ship: cargo test --release -p horizon-world
+version = "0.0.0"
+edition = "2024"
+[lib]
+name = "horizon_world"
+path = "src/lib.rs"
+[dependencies]
+horizon-core = { path = "../../core-mock" }

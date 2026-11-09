@@ -1,0 +1,13 @@
+[package]
+name = "the-sift-creatures-mock"
+# A mock of the game half The Sift's mobs touch (Game, the mob draw frame, mobs, items), to run
+# creatures.rs as it ships: the GeckoLib models and animations, right clicks, spawning.
+version = "0.0.0"
+edition = "2024"
+[lib]
+name = "horizon_client"
+path = "src/lib.rs"
+[dependencies]
+horizon-core = { path = "../../core-mock" }
+glam = "0.30"
+serde_json = "1"

@@ -1,0 +1,30 @@
+[package]
+name = "horizon-client"
+# A mock of what The Sift's native half touches, to test glue.rs, end_pack.rs and sky.rs as they
+# ship (with Horizon's real environment.rs): cargo test --release
+version = "0.0.0"
+edition = "2024"
+[lib]
+name = "horizon_client"
+path = "src/lib.rs"
+[dependencies]
+horizon-client-render = { path = "render-mock" }
+horizon-core = { path = "core-mock" }
+log = { path = "/home/claude/hmodcheck/logstub" }
+[dev-dependencies]
+serde_json = "1"
+[workspace]
+members = [".", "render-mock", "core-mock", "crates/world-mock", "crates/creatures-mock", "crates/lib-mock"]
+[patch.crates-io]
+serde = { path = "/home/claude/vendor/serde/serde" }
+serde_core = { path = "/home/claude/vendor/serde/serde_core" }
+serde_derive = { path = "/home/claude/vendor/serde/serde_derive" }
+serde_json = { path = "/home/claude/vendor/json" }
+glam = { path = "/home/claude/vendor/glam" }
+itoa = { path = "/home/claude/vendor/itoa" }
+memchr = { path = "/home/claude/vendor/memchr" }
+zmij = { path = "/home/claude/vendor/zmij" }
+proc-macro2 = { path = "/home/claude/vendor/proc-macro2" }
+quote = { path = "/home/claude/vendor/quote" }
+syn = { path = "/home/claude/vendor/syn" }
+unicode-ident = { path = "/home/claude/vendor/unicode-ident" }
