@@ -1,0 +1,18 @@
+name = "Mielon's The Sift (Horizon port)"
+summary = "The Sift 2.0.1's world in the End's place: an ancient city portal opened by sonorous consoles and a singer, willows, ichor, mobs with their own models and AI."
+authors = ["Mielon", "bartekchomik26-dotcom"]
+license = "MIT"
+description = """
+A port of Mielon's The Sift 2.0.1 (MIT). Horizon can't add dimensions yet, so The Sift takes the End's place.
+
+Every block and item of The Sift 2.0.1 (121 blocks, 42 items). In the ancient city, blow a goat horn by the city's
+portal frame: a singer rises in it, sings, and wakes the city's eight sonorous consoles. Put note blocks on them,
+tune them, and strike The Sift's sequence: the consoles play it back with beams of light and the frame fills with a
+Sift portal, which leads to The Sift (the End). The screen on the way is The Sift's pixel surface, and The Sift's
+intro plays the first time.
+
+The End generates The Sift's terrain and features; its water is ichor; you arrive beside The Sift's main portal; no
+dragon fight; The Sift's sky. Blubs, echo golems and singers have their own GeckoLib models, animations and AI.
+
+Three files: the content mod (the_sift-2.0.1.hmod), the_sift_native-2.0.1.hnmod and the_sift_native-2.0.1.hnmod.
+"""
