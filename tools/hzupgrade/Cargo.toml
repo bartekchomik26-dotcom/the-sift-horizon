@@ -1,0 +1,19 @@
+[package]
+name="hzupgrade"
+version="0.1.0"
+edition="2024"
+[dependencies]
+serde_json = { version="1", features=["float_roundtrip"] }
+[patch.crates-io]
+serde = { path = "/home/claude/vendor/serde/serde" }
+serde_core = { path = "/home/claude/vendor/serde/serde_core" }
+serde_derive = { path = "/home/claude/vendor/serde/serde_derive" }
+serde_json = { path = "/home/claude/vendor/json" }
+glam = { path = "/home/claude/vendor/glam" }
+itoa = { path = "/home/claude/vendor/itoa" }
+memchr = { path = "/home/claude/vendor/memchr" }
+zmij = { path = "/home/claude/vendor/zmij" }
+proc-macro2 = { path = "/home/claude/vendor/proc-macro2" }
+quote = { path = "/home/claude/vendor/quote" }
+syn = { path = "/home/claude/vendor/syn" }
+unicode-ident = { path = "/home/claude/vendor/unicode-ident" }
