@@ -47,7 +47,7 @@ Get both files from [Releases](../../releases):
 1. Find an ancient city. Its centre is The Sift's, with eight sonorous deepslate consoles.
 2. Blow a goat horn near the frame. A singer rises, sings, and wakes the consoles.
 3. Put note blocks on them. Right click tunes through The Sift's 8 tones, left click plays.
-4. Strike **1 3 7 6 5 2 4 8**: beams rise and the frame fills with a Sift portal.
+4. Strike 0 → 2 → 6 → 5 → 4 → 1 → 3 → 7: beams rise and the frame fills with a Sift portal.
    Strike it backwards to close it.
 5. The first time you enter, The Sift's intro plays.
 
